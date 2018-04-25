@@ -17,4 +17,7 @@ export class AppComponent {
     //   this.rabbits = data;
     // }, error => console.error('TOO BAD', error));
   }
+  onToutAcheter() {
+    alert("Attention vous allez être remplis de lapinous radioactifs");
+  }
 }
