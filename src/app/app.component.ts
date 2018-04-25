@@ -7,7 +7,6 @@ import { RabbitService } from './rabbit.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Lapinière';
 
   private rabbits: Rabbit[] = [];
 
@@ -17,5 +16,8 @@ export class AppComponent {
     //   console.log('SUCCESS', data)
     //   this.rabbits = data;
     // }, error => console.error('TOO BAD', error));
+  }
+  onToutAcheter() {
+    alert("Attention vous allez être remplis de lapinous radioactifs");
   }
 }
