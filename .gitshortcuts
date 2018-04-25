@@ -1,0 +1,30 @@
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = kdiff3
+[diff]
+	guitool = vscode
+[difftool "vscode"]
+	path = vscode
+[core]
+	editor = nano
+[credential]
+[user]
+	name = Jonathan Poncy
+	email = jonathan.poncy@tactfactory.com
+[alias]
+	st = status
+	br = branch -v
+	ci = commit
+	co = checkout
+    track = co --track
+	amend = commit --amend
+	changed = diff --name-status
+	dic = diff --cached
+	diffstat = diff --stat
+	oneline = log --oneline --graph --decorate
+	ls-commits = log --oneline
+	lc = !git oneline origin/master.. --stat --no-merges
+	hard = reset --hard
+[push]
+	default = matching
