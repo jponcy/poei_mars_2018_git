@@ -11,5 +11,11 @@ article {
     border: 2px solid skyblue;
     border-radius: 25px;
     background-color: lightblue;
-    color: rgb(71, 53, 53)
+    color: rgb(71, 53, 53);
+    display: flex;
+    flex-flow: column wrap;
+}
+
+article > * {
+    width: 100%;
 }
