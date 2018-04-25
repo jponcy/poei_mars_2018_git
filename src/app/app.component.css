@@ -8,8 +8,14 @@ article {
     width: 400px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid skyblue;
-    border-radius: 5%;
+    border: 2px solid skyblue;
+    border-radius: 25px;
     background-color: lightblue;
-    color: rgb(71, 53, 53)
+    color: rgb(71, 53, 53);
+    display: flex;
+    flex-flow: column wrap;
+}
+
+article > * {
+    width: 100%;
 }
