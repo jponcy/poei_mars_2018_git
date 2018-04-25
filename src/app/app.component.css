@@ -10,4 +10,6 @@ article {
     padding: 10px;
     border: 1px solid skyblue;
     border-radius: 5%;
+    background-color: lightblue;
+    color: rgb(71, 53, 53)
 }
