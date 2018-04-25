@@ -7,7 +7,6 @@ import { RabbitService } from './rabbit.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Lapinière';
 
   private rabbits: Rabbit[] = [];
 
