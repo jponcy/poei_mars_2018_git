@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+article {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+}
